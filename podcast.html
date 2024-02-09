@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./podcast.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="podcast">
+      <div class="navigation1">
+        <div class="logo1" id="lOGOContainer">
+          <img class="vector-icon1" alt="" src="./public/vector.svg" />
+        </div>
+        <div class="menu-items1">
+          <div class="about1" id="aboutText">About</div>
+          <div class="about1" id="workText">Work</div>
+          <div class="contact4">Contact</div>
+        </div>
+      </div>
+      <div class="gallery-section1" data-scroll-to="gallerySectionContainer">
+        <div class="latest-work1">Podcast App</div>
+        <div class="cards-section1">
+          <div class="gallery-card1">
+            <img class="image-icon4" alt="" src="./public/image@2x.png" />
+
+            <div class="title-description5">
+              <div class="project-title4">Project title</div>
+              <div class="ui-art-drection2">UI, Art drection</div>
+            </div>
+          </div>
+          <div class="gallery-card1">
+            <img class="image-icon4" alt="" src="./public/image@2x.png" />
+
+            <div class="title-description5">
+              <div class="project-title4">Project title</div>
+              <div class="ui-art-drection2">UI, Art drection</div>
+            </div>
+          </div>
+          <div class="gallery-card1">
+            <img class="image-icon4" alt="" src="./public/image@2x.png" />
+
+            <div class="title-description5">
+              <div class="project-title4">Project title</div>
+              <div class="ui-art-drection2">UI, Art drection</div>
+            </div>
+          </div>
+          <div class="gallery-card1">
+            <img class="image-icon4" alt="" src="./public/image@2x.png" />
+
+            <div class="title-description5">
+              <div class="project-title4">Project title</div>
+              <div class="ui-art-drection2">UI, Art drection</div>
+            </div>
+          </div>
+          <div class="gallery-card1">
+            <img class="image-icon4" alt="" src="./public/image@2x.png" />
+
+            <div class="title-description5">
+              <div class="project-title4">Project title</div>
+              <div class="ui-art-drection2">UI, Art drection</div>
+            </div>
+          </div>
+          <div class="gallery-card1">
+            <img class="image-icon4" alt="" src="./public/image@2x.png" />
+
+            <div class="title-description5">
+              <div class="project-title4">Project title</div>
+              <div class="ui-art-drection2">UI, Art drection</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="icon" alt="" src="./public/65975-1@2x.png" />
+
+      <div class="podcast-app-parent">
+        <div class="podcast-app">Podcast App</div>
+        <div class="focus-was-to-container">
+          <p class="that-simplified-the-process-of">
+            Focus was to create a user-friendly interface
+          </p>
+          <p class="that-simplified-the-process-of">
+            <span
+              >that simplified the process of accessing New content and sport,
+              Music and more information contents at the ease</span
+            >
+            <span class="span1">.</span>
+          </p>
+        </div>
+      </div>
+      <div class="button3" id="buttonContainer">
+        <div class="contact5">Click here to view</div>
+      </div>
+      <div class="contact-section1">
+        <div class="lets-work-together1">Lets work together</div>
+        <div class="contact-section-content1">
+          <div class="contact-info1">
+            <div class="title-description11">
+              <div class="this-is-a1">
+                This is a template Figma file, turned into code using Anima.
+                Learn more at AnimaApp.com This is a template Figma file, turned
+                into code using Anima. Learn more at AnimaApp.com
+              </div>
+            </div>
+            <div class="social-links1">
+              <img
+                class="discord-icon1"
+                alt=""
+                src="./public/discord.svg"
+                id="discordIcon"
+              />
+
+              <img
+                class="discord-icon1"
+                alt=""
+                src="./public/facebook.svg"
+                id="facebookIcon"
+              />
+
+              <img
+                class="discord-icon1"
+                alt=""
+                src="./public/dribbble.svg"
+                id="dribbbleIcon"
+              />
+
+              <img
+                class="discord-icon1"
+                alt=""
+                src="./public/nstagram.svg"
+                id="nstagramIcon"
+              />
+
+              <img
+                class="discord-icon1"
+                alt=""
+                src="./public/behance.svg"
+                id="behanceIcon"
+              />
+            </div>
+          </div>
+          <div class="contact-form1">
+            <div class="input-fields1">
+              <input class="input-field2" placeholder="Name" type="text" />
+
+              <input class="input-field2" placeholder="Email" type="email" />
+            </div>
+            <div class="button4">
+              <div class="contact5">Submit</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var lOGOContainer = document.getElementById("lOGOContainer");
+      if (lOGOContainer) {
+        lOGOContainer.addEventListener("click", function (e) {
+          window.location.href = "home.html";
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='headerSectionContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var workText = document.getElementById("workText");
+      if (workText) {
+        workText.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='gallerySectionContainer']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function () {
+          window.open(
+            "https://www.figma.com/proto/jKTBWWulahCWbvTkPjkxxk/Podcast?type=design&t=PsvTI3b1TDj7NegG-0&scaling=scale-down&page-id=0%3A1&node-id=30-283&starting-point-node-id=30%3A283"
+          );
+        });
+      }
+      
+      var discordIcon = document.getElementById("discordIcon");
+      if (discordIcon) {
+        discordIcon.addEventListener("click", function () {
+          window.open("https://discord.com/invite/eQxkYTNxSp");
+        });
+      }
+      
+      var facebookIcon = document.getElementById("facebookIcon");
+      if (facebookIcon) {
+        facebookIcon.addEventListener("click", function () {
+          window.open("https://www.facebook.com/animaapp/");
+        });
+      }
+      
+      var dribbbleIcon = document.getElementById("dribbbleIcon");
+      if (dribbbleIcon) {
+        dribbbleIcon.addEventListener("click", function () {
+          window.open("https://dribbble.com/animaapp");
+        });
+      }
+      
+      var nstagramIcon = document.getElementById("nstagramIcon");
+      if (nstagramIcon) {
+        nstagramIcon.addEventListener("click", function () {
+          window.open("https://www.instagram.com/animaapp/?hl=en");
+        });
+      }
+      
+      var behanceIcon = document.getElementById("behanceIcon");
+      if (behanceIcon) {
+        behanceIcon.addEventListener("click", function () {
+          window.open("https://www.behance.net/Anima_design");
+        });
+      }
+      </script>
+  </body>
+</html>

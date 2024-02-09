@@ -1,0 +1,403 @@
+.vector-icon {
+  width: 43.4px;
+  position: relative;
+  height: 43.4px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about,
+.logo {
+  cursor: pointer;
+}
+.about,
+.contact {
+  position: relative;
+  line-height: 27px;
+}
+.menu-items,
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+.menu-items {
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-5xl);
+}
+.navigation {
+  align-self: stretch;
+  background-color: var(--white);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-23xl);
+  font-size: var(--font-size-mid);
+}
+.hello,
+.im-noah-opeyemi {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.hello {
+  line-height: 30px;
+}
+.im-noah-opeyemi {
+  font-size: var(--h1-size);
+}
+.d,
+.i-am-a {
+  font-family: var(--h1);
+}
+.d {
+  font-weight: 600;
+}
+.i-am-a-uxui-designer-and-cre {
+  margin: 0;
+}
+.i-am-a-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid);
+  line-height: 27px;
+}
+.title-subtitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.contact1 {
+  position: relative;
+  font-size: var(--subtitle-size);
+  line-height: 30px;
+  font-weight: 600;
+  font-family: var(--h1);
+  color: var(--white);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-45xl);
+  background-color: var(--black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.header-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  min-width: 320px;
+  max-width: 620px;
+}
+.whatsapp-image-2023-12-03-at-1-icon {
+  width: 384px;
+  position: relative;
+  height: 365px;
+  object-fit: cover;
+}
+.header-section {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-45xl) var(--padding-5xl);
+  gap: 42px 132px;
+}
+.frame-child {
+  width: 52.3px;
+  position: relative;
+  height: 54.2px;
+  object-fit: contain;
+}
+.frame-item {
+  width: 153.2px;
+  position: relative;
+  height: 153.2px;
+}
+.vector-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 189px;
+}
+.uiux-design {
+  margin: 0;
+  font-size: var(--subtitle-size);
+}
+.this-is-a-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+  font-size: var(--font-size-mid);
+}
+.contact2 {
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+}
+.button1,
+.text {
+  display: flex;
+  align-items: center;
+}
+.button1 {
+  background-color: var(--black);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-45xl);
+  cursor: pointer;
+  color: var(--white);
+}
+.text {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  min-width: 320px;
+  max-width: 460px;
+}
+.arrow-icon {
+  width: 51.2px;
+  position: relative;
+  height: 53px;
+  object-fit: contain;
+}
+.header-section1,
+.vector-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 197px;
+}
+.header-section1 {
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-45xl) var(--padding-5xl);
+  gap: 86px;
+  text-align: center;
+  font-size: var(--subtitle-size);
+}
+.latest-work {
+  position: relative;
+  line-height: 42px;
+  font-weight: 600;
+}
+.image-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 330px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.gallery-card,
+.title-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title-description {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.gallery-card {
+  flex: 1;
+  gap: var(--gap-5xl);
+  min-width: 320px;
+  cursor: pointer;
+}
+.ui-art-drection1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid);
+  line-height: 27px;
+  white-space: pre-wrap;
+}
+.cards-section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--subtitle-size);
+}
+.gallery-section {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-23xl) 60px;
+  gap: var(--gap-23xl);
+  text-align: center;
+}
+.lets-work-together {
+  width: 626px;
+  position: relative;
+  line-height: 42px;
+  font-weight: 600;
+  display: inline-block;
+}
+.this-is-a {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+}
+.title-description4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.discord-icon {
+  width: 36px;
+  position: relative;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.social-links {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.contact-info {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-23xl);
+  min-width: 320px;
+}
+.contact-info,
+.input-field,
+.input-fields {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input-field {
+  border: 0;
+  outline: 0;
+  font-family: var(--h1);
+  font-size: var(--font-size-mid);
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  color: var(--black);
+  min-width: 320px;
+  max-width: 520px;
+}
+.input-fields {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.button2 {
+  background-color: var(--black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-45xl);
+}
+.contact-form,
+.contact-section-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-form {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  min-width: 320px;
+  max-width: 520px;
+  text-align: center;
+  font-size: var(--subtitle-size);
+  color: var(--white);
+}
+.contact-section-content {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 42px 142px;
+  font-size: var(--font-size-mid);
+}
+.contact-section,
+.home {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contact-section {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: var(--padding-23xl) var(--padding-5xl) var(--padding-67xl);
+  gap: var(--gap-5xl);
+}
+.home {
+  width: 100%;
+  position: relative;
+  align-items: center;
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--black);
+  font-family: var(--h1);
+}
+@media screen and (max-width: 960px) {
+  .gallery-section {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .about,
+  .contact {
+    font-size: var(--font-size-sm);
+  }
+  .menu-items {
+    gap: var(--gap-5xl);
+  }
+  .navigation {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
